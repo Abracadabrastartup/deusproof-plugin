@@ -1,0 +1,18 @@
+{
+  "name": "deusproof",
+  "owner": {
+    "name": "REDGROUND BLOCKCHAIN LLC",
+    "url": "https://deusproof.com"
+  },
+  "metadata": {
+    "description": "The DEUSPROOF notary for Claude Code — prove you made it first.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "deusproof",
+      "source": "./",
+      "description": "Check whether a creation is already on a public ledger before you publish, then timestamp your own so priority is checkable by anyone later. RFC 3161, Bitcoin-anchored, free, no account."
+    }
+  ]
+}
