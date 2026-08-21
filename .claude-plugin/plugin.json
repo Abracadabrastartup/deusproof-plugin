@@ -1,0 +1,24 @@
+{
+  "name": "deusproof",
+  "description": "Prove you made it first. Check whether a creation already exists on a public ledger, then timestamp and seal your own — RFC 3161, Bitcoin-anchored, permanent verify URL. Free, no account.",
+  "version": "1.0.0",
+  "author": {
+    "name": "REDGROUND BLOCKCHAIN LLC",
+    "url": "https://deusproof.com"
+  },
+  "homepage": "https://deusproof.com",
+  "repository": "https://github.com/Abracadabrastartup/deusproof-plugin",
+  "license": "MIT",
+  "keywords": [
+    "provenance",
+    "notary",
+    "timestamp",
+    "prior-art",
+    "authorship",
+    "originality",
+    "rfc3161",
+    "bitcoin",
+    "sha256",
+    "ledger"
+  ]
+}
