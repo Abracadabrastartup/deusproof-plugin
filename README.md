@@ -14,11 +14,15 @@ Free, no account, no API key.
 ## Install
 
 ```
-/plugin install deusproof
+/plugin marketplace add Abracadabrastartup/deusproof-plugin
+/plugin install deusproof@deusproof
 ```
 
 It connects to the hosted MCP server at `https://deusproof.com/mcp`. Nothing runs
-locally and there is nothing to configure.
+locally and there is nothing to configure — no API key, no account.
+
+Verified on Claude Code: installs from this repo and resolves to three skills
+and one MCP server, ~207 tokens always-on.
 
 ## What you get
 
