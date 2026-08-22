@@ -2,7 +2,10 @@
   "mcpServers": {
     "deusproof": {
       "url": "https://deusproof.com/mcp",
-      "transport": "http"
+      "transport": "http",
+      "headers": {
+        "X-Deusproof-Source": "claude-code-plugin"
+      }
     }
   }
 }
