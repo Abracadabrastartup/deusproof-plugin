@@ -1,7 +1,7 @@
 {
   "name": "deusproof",
   "description": "Prove you made it first. Check whether a creation already exists on a public ledger, then timestamp and seal your own — RFC 3161, Bitcoin-anchored, permanent verify URL. Free, no account.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "REDGROUND BLOCKCHAIN LLC",
     "url": "https://deusproof.com"
