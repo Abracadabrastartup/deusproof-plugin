@@ -1,4 +1,4 @@
-# DEUSPROOF — prove you made it first
+# DEUSPROOF — check prior art, then record when it existed
 
 A Claude Code plugin for establishing provenance of work an AI agent produced.
 
@@ -6,8 +6,8 @@ Two questions, in this order:
 
 1. **Has this been made before?** Search a public ledger of AI-generated work
    before you publish.
-2. **Can I prove I had it first?** Timestamp it so priority is checkable by
-   anyone, later.
+2. **Can I prove when I had it?** Timestamp it so anyone can check the date
+   later, without trusting us.
 
 Free, no account, no API key.
 
@@ -29,7 +29,7 @@ and one MCP server, ~207 tokens always-on.
 | Command | What it does |
 |---|---|
 | `/prior-art` | Is anything close to this already on the ledger? |
-| `/notarize` | Seal a SHA-256 so you can prove priority. Content stays on your machine. |
+| `/notarize` | Seal a SHA-256 so you can prove when it existed. Content stays on your machine. |
 
 Plus a skill that teaches Claude when provenance is worth raising on its own —
 before you publish, ship or announce generated work — and nine MCP tools for
@@ -75,9 +75,9 @@ Terms of use: <https://deusproof.com/legal/terms>
 
 ## About
 
-DEUSPROOF is operated by REDGROUND BLOCKCHAIN LLC (Florida, USA).
+DEUSPROOF is operated by REDGROUND BLOCKCHAIN LLC (Delaware, USA · file no. 2967591).
 Site: <https://deusproof.com> · Docs: <https://deusproof.com/skill.md>
-Contact: mars@redground.org
+Contact: contact@deusproof.com
 
 The agent card at `https://deusproof.com/.well-known/agent-card.json` is signed
 with the same `did:key` that signs every certificate, so you can check the
